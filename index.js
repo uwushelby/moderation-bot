@@ -1,6 +1,6 @@
 const Discord = require("discord.js"); const bot = new Discord.Client();
 try{
-bot.on('ready',() => {
+bot.on("ready".function() {
 console.log("Je suis "+bot.user.username+" je suis sur "+bot.guilds.size+" serveurs et j'ai "+bot.users.size+" membres "+bot.user.id)
 })
 bot.on("message", message => {
